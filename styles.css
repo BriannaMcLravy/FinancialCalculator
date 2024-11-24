@@ -1,0 +1,129 @@
+/* Background styling */
+body {
+  background-image: url('https://pics.granto.cloud/i/b104c1a7-2c6c-4b16-b337-5a980a47f5d7.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Headings */
+h1 {
+  color: darkslateblue;
+  text-shadow: 2px 2px 4px #aaa;
+}
+
+h4 {
+  color: dimgray;
+}
+
+/* Sidebar and Panel Styling */
+.sidebarPanel {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.mainPanel {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+}
+/* Previous styles remain the same */
+
+/* Memory container styling */
+.memory-container {
+  background-color: rgba(211, 211, 211, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: rgba(169, 169, 169, 0.5);
+  font-weight: bold;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+/* Add these to your existing styles.css */
+
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-help {
+  position: absolute;
+  right: -25px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: #6c757d;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  cursor: help;
+  font-size: 14px;
+}
+
+.alert {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+.btn-primary {
+  margin-right: 10px;
+}
+
+/* Tooltip styling */
+.input-help:hover::after {
+  content: attr(title);
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1000;
+  margin-left: 10px;
+}
+
+/* Download button styling */
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  margin-bottom: 15px;
+}
+
+.btn-default:hover {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
